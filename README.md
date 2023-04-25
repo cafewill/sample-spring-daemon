@@ -18,6 +18,9 @@ Step #3 Docker run and connect localhost:8080 or localhost:8282
 
     sudo docker run -p 8080:8282 spring-daemon
     sudo docker run -p 8282:8282 spring-daemon
+    
+    sudo docker ps
+    sudo docker logs -f [container id]
 
 ## See Also
 
